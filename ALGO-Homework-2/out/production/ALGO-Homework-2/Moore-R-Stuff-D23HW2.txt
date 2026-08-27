@@ -1,0 +1,7 @@
+1. Lucas is also known for inventing the Tower of Hanoi puzzile in 1883, which he referred to as N.
+
+2. The order of growth for the ratio algorithm is O(n^3) since I iterate through 3 lists at a time.
+
+3. In Subirachs Square, the sum that can be created with the greatest number of combinations is 
+   66, which can be created with 1364 different combinations. Coincidentally (or not), this number
+   is exactly half of the highest sum that can be created when all numbers in the square are added.

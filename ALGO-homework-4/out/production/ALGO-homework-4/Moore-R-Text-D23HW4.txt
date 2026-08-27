@@ -1,0 +1,14 @@
+1. There are a few problems with the algorithm. The first problem
+   arises if A[i, i] equals 0, and dividing by 0 results in an error. 
+   Another problem being the possiblity of A[j, i]/A[i, i] being so 
+   large that the new value could get altered by a rounding error.
+   The final problem is that the algorithm includes a single line
+   that performs multiplication and subtraction
+
+[ 1  1  1 | 6 ]
+[ 1  1  2 | 9 ]
+[ 1  2  3 | 14]
+
+[ 1  1  1 | 6 ]
+[ 1  1  2 | 9 ]
+[ 1  2  3 | 14]
